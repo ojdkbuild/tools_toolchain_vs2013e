@@ -1,0 +1,15 @@
+# This file describes to configure how to interpret the contents of this devkit
+DEVKIT_NAME="Microsoft Visual Studio 2013 SP4 (devkit)"
+DEVKIT_VS_VERSION="2013"
+
+DEVKIT_TOOLCHAIN_PATH_x86="$DEVKIT_ROOT/VC/bin:$DEVKIT_ROOT/8.1/bin/x86"
+DEVKIT_VS_INCLUDE_x86="$DEVKIT_ROOT/VC/include;$DEVKIT_ROOT/VC/atlmfc/include;$DEVKIT_ROOT/8.1/include/shared;$DEVKIT_ROOT/8.1/include/um;$DEVKIT_ROOT/8.1/include/winrt"
+DEVKIT_VS_LIB_x86="$DEVKIT_ROOT/VC/lib;$DEVKIT_ROOT/VC/atlmfc/lib;$DEVKIT_ROOT/8.1/lib/x86"
+DEVKIT_MSVCR_DLL_x86="$DEVKIT_ROOT/VC/redist/x86/Microsoft.VC120.CRT/msvcr120.dll"
+DEVKIT_MSVCP_DLL_x86="$DEVKIT_ROOT/VC/redist/x86/Microsoft.VC120.CRT/msvcp120.dll"
+
+DEVKIT_TOOLCHAIN_PATH_x86_64="$DEVKIT_ROOT/VC/bin/amd64:$DEVKIT_ROOT/8.1/bin/x64:$DEVKIT_ROOT/8.1/bin/x86"
+DEVKIT_VS_INCLUDE_x86_64="$DEVKIT_ROOT/VC/include;$DEVKIT_ROOT/VC/atlmfc/include;$DEVKIT_ROOT/8.1/include/shared;$DEVKIT_ROOT/8.1/include/um;$DEVKIT_ROOT/8.1/include/winrt"
+DEVKIT_VS_LIB_x86_64="$DEVKIT_ROOT/VC/lib/amd64;$DEVKIT_ROOT/VC/atlmfc/lib/amd64;$DEVKIT_ROOT/8.1/lib/x64"
+DEVKIT_MSVCR_DLL_x86_64="$DEVKIT_ROOT/VC/redist/x64/Microsoft.VC120.CRT/msvcr120.dll"
+DEVKIT_MSVCP_DLL_x86_64="$DEVKIT_ROOT/VC/redist/x64/Microsoft.VC120.CRT/msvcp120.dll"
